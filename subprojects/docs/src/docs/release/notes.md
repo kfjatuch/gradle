@@ -17,6 +17,11 @@ details of 2
 ## n
 -->
 
+## Maven publication: expose resolved versions
+
+When using the [`maven-publish` plugin](userguide/publishing_maven.html), you can now opt to publish the _resolved_ dependency versions instead of the _declared_ ones.
+For details, have a look at the [dedicated section](userguide/publishing_maven.html#publishing_maven:resolved_dependencies) in the plugin documentation.
+
 ## Promoted features
 Promoted features are features that were incubating in previous versions of Gradle but are now supported and subject to backwards compatibility.
 See the User manual section on the “[Feature Lifecycle](userguide/feature_lifecycle.html)” for more information.
